@@ -53,7 +53,6 @@
         app.ports.sendToTorus.subscribe(function (mastery) {
             console.log("Data from Elm: ", mastery);
             model.set('mastery', mastery);
-            alert("Congratulations! You're ready to move on. Press the NEXT button to advance to the next slide.");
             simcapi.Transporter.triggerCheck();
         });
     </script>
