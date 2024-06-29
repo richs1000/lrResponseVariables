@@ -13,7 +13,7 @@ git init
 git add .
 git commit -m "First commit"
 git branch -M main
-git remote add github https://github.com/richs1000/scatterPlots.git
+git remote add github https://github.com/richs1000/lrResponseVariables.git
 git push -u github main
 
 
@@ -411,7 +411,7 @@ createNewModel newWindowDimensions newMasterySettings =
     , windowDimensions = newWindowDimensions
     , currentQuestion = emptyQuestion
     , userResponse = Nothing
-    , debug = True
+    , debug = False
     }
 
 
