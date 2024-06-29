@@ -616,8 +616,8 @@ viewFeedback model =
                 ]
                 [ Element.row
                     [ Element.width Element.fill ]
-                    [ Element.column
-                        [ Element.width (Element.fillPortion 1)
+                    [ Element.paragraph
+                        [ Element.width Element.fill
                         , Element.padding 10
                         ]
                         [ Element.text userResponse.feedback ]

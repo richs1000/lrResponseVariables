@@ -12596,11 +12596,10 @@ var $author$project$Main$viewFeedback = function (model) {
 					_List_fromArray(
 						[
 							A2(
-							$mdgriffith$elm_ui$Element$column,
+							$mdgriffith$elm_ui$Element$paragraph,
 							_List_fromArray(
 								[
-									$mdgriffith$elm_ui$Element$width(
-									$mdgriffith$elm_ui$Element$fillPortion(1)),
+									$mdgriffith$elm_ui$Element$width($mdgriffith$elm_ui$Element$fill),
 									$mdgriffith$elm_ui$Element$padding(10)
 								]),
 							_List_fromArray(
